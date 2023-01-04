@@ -10,5 +10,5 @@ def hello():
     counter = str(redis.get('hits'),'utf-8')
     return "I managed to make it! - This message has been viewed "+counter+" time(s) due to Redis Cache"
 
-if __name__ == "__master__":
+if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
