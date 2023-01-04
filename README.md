@@ -1,2 +1,2 @@
-# thesis
-Cool stuff for thesis
+# apps
+Cool stuff for apps and experiments
